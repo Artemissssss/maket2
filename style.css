@@ -74,7 +74,7 @@ transition: 0.5s;
 .buy-ab {
  min-width: 100vh;
  height: 600px;
-background: url(./img/backh.jpg), url(./img/backho.jpg);
+background: url(./backh.jpg), url(./backho.jpg);
 font-family: Roboto;
 font-weight: 900;
 font-size: 44px;
