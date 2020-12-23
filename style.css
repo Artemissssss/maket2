@@ -257,7 +257,7 @@ transition: 0.5s;
 transform: scale(1.1);
 color: white;
 }
-.portfolio2 {
+.portfolio {
     display: flex;
     margin: 50px auto 150px auto;
     width: 75%;
@@ -311,7 +311,9 @@ padding: 25px;
 .hhhh {
     text-align: center;
 }
-
+.2por {
+margin-top: 30px;
+}
 
 
 
