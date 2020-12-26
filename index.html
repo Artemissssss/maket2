@@ -31,7 +31,21 @@
     <p class="buy">Эффективные решения <br> для вашего бизнеса</p>
     <button class="buy-btn">Заказать услугу</button>
 </div>
-</header>
+<script type="text/javascript">
+$(function() {
+$(window).scroll(function() {
+if($(this).scrollTop() != 0) {
+$('#topNubex').fadeIn();
+} else {
+$('#topNubex').fadeOut();
+}
+});
+$('#topNubex').click(function() {
+$('body,html').animate({scrollTop:0},700);
+});
+});
+</script>
+    </header>
 <main>
     <section class="ab-us">
         <ul class="about-us">
